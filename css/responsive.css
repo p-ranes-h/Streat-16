@@ -1,0 +1,909 @@
+/*
+Template Name:CafeBerry
+File Name: responsive.css
+Author Name: ThemeVault
+Author URI: http://www.themevault.net/
+License URI: http://www.themevault.net/license/
+*/
+
+/* Landscape phones and smaller */
+
+@media (min-width: 1199px) and (max-width: 1300px) 
+{
+
+}
+
+@media (max-width: 1199px) 
+{
+
+}
+
+@media (min-width:1000px) and (max-width:1100px)
+{
+    .tv-menu {
+        font-size: 9px;
+    }
+    .tv-zindex
+    {
+        clear:both;
+    }
+    #onepage .tv-menu {
+        font-size: 10px;
+        padding: 15px 10px !important;
+    }
+
+    /*Error CSS*/
+    .tv-404-img {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    /*End Error CSS*/
+
+    /*Comming Soon CSS*/
+    .tv-comming-page
+    {
+        height: 100%;
+        position: absolute;
+        width: 100%; 
+    }
+    /*End Comming Soon CSS*/
+
+    .tv-offer-content > a {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+
+    #shortcodes .tv-common-title-left
+    {
+        text-align: left;
+    }
+
+    /*Toggle CSS*/
+    .nav
+    {
+        width: 100%;
+    }
+    .navbar-default .navbar-nav > li > a {
+        color: #ffffff;
+    }
+    .tv-newsletter-input input
+    {
+        width:50%;
+    }
+    .tv-newsletter-button button{
+        width:50%;
+    }
+    .navbar-default .navbar-nav > li > a:hover
+    {
+        color:#ff8c25;
+    }
+    .navbar-header{
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .collapse.in, .tv-sub-sub-menu{
+        display:block !important;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .menu-active > li > a:hover {
+        background-color: transparent;
+        color:#eb2141 !important;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-nav .open .dropdown-menu {
+        background-color: transparent;
+        border: 0 none;
+        box-shadow: none;
+        float: none;
+        margin-top: 0;
+        position: static;
+        width: auto;
+    }
+    /*End Toggle CSS*/
+
+    .tv-banner-title p {
+        width: 75%;
+    }
+    .tv-zindex
+    {
+        clear:both;
+    }
+    .page-span-3::after {
+        left: -23px;
+    }
+    .tv-about-img img {
+        margin-top: 30px;
+    }
+    .page-span-4::after {
+        right: -38px;
+    }
+    .page-span-1::after {
+        right: -38px;
+    }
+    .tv-reservation-input {
+        margin-top: 20px;
+    }
+    .tv-block-common-title > p {
+        font-size: 13px;
+    }
+    .tv-common-title-left {
+        text-align:center;
+    }
+    .tv-overlay-content > h4 {
+        font-size: 20px;
+    }
+    .tv-latestnews-img img {
+        margin-top: 30px;
+    }
+    .f-instagram {
+        margin-top: 20px;
+    }
+    .tv-copyright > p {
+        font-size: 13px;
+    }
+    .tv-design-footer p {
+        font-size: 13px;
+    }
+
+    /*Our Food CSS*/
+    .tv-aboutmenu-img {
+        margin-top: 30px;
+    }
+    /*End Our Food CSS*/
+
+    /*Error CSS*/
+    .tv-404-img {
+        height: 100%;
+        position: absolute;
+        width: 100%;
+    }
+    /*End Error CSS*/
+
+    /*Comming Soon CSS*/
+    .tv-comming-page
+    {
+        height: 100%;
+        position: absolute;
+        width: 100%; 
+    }
+    /*End Comming Soon CSS*/
+
+    .widget {
+        margin-top: 40px;
+    }
+    .tv-about1-clear {
+        clear: both;
+    }
+    .tv-service1-clear
+    {
+        clear:both;
+    }
+}
+
+@media (min-width:600px) and (max-width: 767px) 
+{
+    .counter-box-5 .counter-box {
+        text-align:center;
+    }
+    .counter-box-5 .counter-box .number {
+        font-size:30px;
+    }
+    .counter-box-5 .counter-box span {
+        font-size:10px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: transparent;
+        color: #ff8c25;
+    }
+    .tv-banner-title {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    .tv-banner-title p {
+        width: 100%;
+    }
+    .tv-banner-title h1 {
+        font-size: 45px;
+    }
+    .tv-banner-title h2 {
+        font-size: 35px;
+    }
+    .page-span-3::before {
+        left: -5px;
+    }
+    .page-span-3::after {
+        left: -14px;
+        top: -5px;
+    }
+    .page-span-4::after {
+        bottom: -5px;
+        right: -14px;
+    }
+    .page-span-4::before {
+        right: -5px;
+    }
+    .tv-block-common-title {
+        margin-top: 30px;
+    }
+    .tv-about-img img {
+        margin-top: 30px;
+    }
+    .tv-common-title-left {
+        text-align: center;
+    }
+    .tv-dishes-content {
+        text-align: center;
+    }
+    .page-span-1::after {
+        right: -15px;
+        top: -5px;
+    }
+    .page-span-1::before {
+        right: -5px;
+    }
+    .tv-dishes-img {
+        margin-top: 30px;
+    }
+    .page-span-2.type-2::after {
+        bottom: -5px;
+        left: -13px;
+    }
+    .page-span-2.type-2::before {
+        left: -5px;
+    }
+    .tv-reservation-input {
+        margin-top: 20px;
+    }
+    .tv-block-common-title > p {
+        font-size: 13px;
+    }
+    .tv-block-common-title h3 {
+        font-size: 20px;
+    }
+    .tv-menu-list-img {
+        float: none;
+        position: relative;
+    }
+    .tv-menu-list-img img {
+        max-width: inherit;
+    }
+    .tv-menu-list p {
+        padding-left:0px;
+    }
+    .tv-menu-list-content {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .tv-overlay-content > h4 {
+        font-size: 15px;
+    }
+    .tv-counter {
+        margin-top: 20px;
+    }
+    .tv-latestnews-img {
+        margin-top: 20px;
+    }
+    .f-instagram {
+        margin-top: 20px;
+    }
+    .tv-newsletter-input input {
+        width: 100%;
+    }
+    .tv-newsletter-button button {
+        width:100%;
+    }
+    .tv-copyright {
+        text-align: center;
+    }
+
+    /*Our Food CSS*/
+    .tv-aboutmenu-img {
+        margin-top: 30px;
+    }
+    .tv-inner-service-content {
+        text-align: center;
+        margin-top: 40px;
+    }
+    /*End Our Food CSS*/
+
+    /*Single Blog*/
+    .tv-single-title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .tv-single-controls > a {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .tv-single-commentlist {
+        padding: 0;
+    }
+    .tv-single-comment-children {
+        margin-left: 20px;
+    }
+    .widget {
+        margin-top: 40px;
+    }
+    .tv-comment-form input {
+        width: 100%;
+    }
+    /*End Single Blog*/
+}
+
+
+@media (min-width:501px) and (max-width:599px)
+{
+    .counter-box-5 .counter-box {
+        text-align:center;
+    }
+    .counter-box-5 .counter-box .number {
+        font-size:30px;
+    }
+    .counter-box-5 .counter-box span {
+        font-size:10px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .nav>li>a {
+        padding:0px 15px !important;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: transparent;
+        color: #ff8c25;
+    }
+    .tv-banner-title {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    .tv-banner-title p {
+        width: 100%;
+    }
+    .tv-banner-title h1 {
+        font-size: 45px;
+    }
+    .tv-banner-title h2 {
+        font-size: 35px;
+    }
+    .page-span-3::before {
+        left: -5px;
+    }
+    .page-span-3::after {
+        left: -14px;
+        top: -5px;
+    }
+    .page-span-4::after {
+        bottom: -5px;
+        right: -14px;
+    }
+    .page-span-4::before {
+        right: -5px;
+    }
+    .tv-block-common-title {
+        margin-top: 30px;
+    }
+    .tv-about-img img {
+        margin-top: 30px;
+    }
+    .tv-common-title-left {
+        text-align: center;
+    }
+    .tv-dishes-content {
+        text-align: center;
+    }
+    .page-span-1::after {
+        right: -15px;
+        top: -5px;
+    }
+    .page-span-1::before {
+        right: -5px;
+    }
+    .tv-dishes-img {
+        margin-top: 30px;
+    }
+    .page-span-2.type-2::after {
+        bottom: -5px;
+        left: -13px;
+    }
+    .page-span-2.type-2::before {
+        left: -5px;
+    }
+    .tv-reservation-input {
+        margin-top: 20px;
+    }
+    .tv-block-common-title > p {
+        font-size: 13px;
+    }
+    .tv-block-common-title h3 {
+        font-size: 20px;
+    }
+    .tv-menu-list-img {
+        float: none;
+        position: relative;
+    }
+    .tv-menu-list-img img {
+        max-width: inherit;
+    }
+    .tv-menu-list p {
+        padding-left:0px;
+    }
+    .tv-menu-list-content {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .tv-overlay-content > h4 {
+        font-size: 15px;
+    }
+    .tv-counter {
+        margin-top: 20px;
+    }
+    .tv-latestnews-img {
+        margin-top: 20px;
+    }
+    .f-instagram {
+        margin-top: 20px;
+    }
+    .tv-newsletter-input input {
+        width: 100%;
+    }
+    .tv-newsletter-button button {
+        width:100%;
+    }
+    .tv-copyright {
+        text-align: center;
+    }
+
+    /*Our Food CSS*/
+    .tv-aboutmenu-img {
+        margin-top: 30px;
+    }
+    .tv-inner-service-content {
+        text-align: center;
+        margin-top: 40px;
+    }
+    /*End Our Food CSS*/
+
+    /*Single Blog*/
+    .tv-single-title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .tv-single-controls > a {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .tv-single-commentlist {
+        padding: 0;
+    }
+    .tv-single-comment-children {
+        margin-left: 20px;
+    }
+    .widget {
+        margin-top: 40px;
+    }
+    .tv-comment-form input {
+        width: 100%;
+    }
+    /*End Single Blog*/
+}
+
+@media (max-width: 500px) 
+{
+    .counter-box-5 .counter-box {
+        text-align:center;
+    }
+    .counter-box-5 .counter-box .number {
+        font-size:30px;
+    }
+    .counter-box-5 .counter-box span {
+        font-size:10px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: transparent;
+        color: #ff8c25;
+    }
+    .tv-banner-title {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    .tv-banner-title p {
+        width: 100%;
+    }
+    .tv-banner-title h1 {
+        font-size: 45px;
+    }
+    .tv-banner-title h2 {
+        font-size: 35px;
+    }
+    .page-span-3::before {
+        left: -5px;
+    }
+    .page-span-3::after {
+        left: -14px;
+        top: -5px;
+    }
+    .page-span-4::after {
+        bottom: -5px;
+        right: -14px;
+    }
+    .page-span-4::before {
+        right: -5px;
+    }
+    .tv-block-common-title {
+        margin-top: 30px;
+    }
+    .tv-about-img img {
+        margin-top: 30px;
+    }
+    .tv-common-title-left {
+        text-align: center;
+    }
+    .tv-dishes-content {
+        text-align: center;
+    }
+    .page-span-1::after {
+        right: -15px;
+        top: -5px;
+    }
+    .page-span-1::before {
+        right: -5px;
+    }
+    .tv-dishes-img {
+        margin-top: 30px;
+    }
+    .page-span-2.type-2::after {
+        bottom: -5px;
+        left: -13px;
+    }
+    .page-span-2.type-2::before {
+        left: -5px;
+    }
+    .tv-reservation-input {
+        margin-top: 20px;
+    }
+    .tv-block-common-title > p {
+        font-size: 13px;
+    }
+    .tv-block-common-title h3 {
+        font-size: 20px;
+    }
+    .tv-menu-list-img {
+        float: none;
+        position: relative;
+    }
+    .tv-menu-list-img img {
+        max-width: inherit;
+    }
+    .tv-menu-list p {
+        padding-left:0px;
+    }
+    .tv-menu-list-content {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .tv-overlay-content > h4 {
+        font-size: 15px;
+    }
+    .tv-counter {
+        margin-top: 20px;
+    }
+    .tv-latestnews-img {
+        margin-top: 20px;
+    }
+    .f-instagram {
+        margin-top: 20px;
+    }
+    .tv-newsletter-input input {
+        width: 100%;
+    }
+    .tv-newsletter-button button {
+        width:100%;
+    }
+    .tv-copyright {
+        text-align: center;
+    }
+    /*Our Food CSS*/
+    .tv-aboutmenu-img {
+        margin-top: 30px;
+    }
+    .tv-inner-service-content {
+        text-align: center;
+        margin-top: 40px;
+    }
+    /*End Our Food CSS*/
+
+    /*Single Blog*/
+    .tv-single-title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .tv-single-controls > a {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .tv-single-commentlist {
+        padding: 0;
+    }
+    .tv-single-comment-children {
+        margin-left: 20px;
+    }
+    .widget {
+        margin-top: 40px;
+    }
+    .tv-comment-form input {
+        width: 100%;
+    }
+    /*End Single Blog*/
+}
+
+@media (max-width: 400px) 
+{
+    .counter-box-5 .counter-box {
+        text-align:center;
+    }
+    .counter-box-5 .counter-box .number {
+        font-size:30px;
+    }
+    .counter-box-5 .counter-box span {
+        font-size:10px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    .nav > li {
+        display:block;
+        position: relative;
+    }
+    .navbar-nav > li {
+        float: none;
+        text-align:left;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        background-color: transparent;
+        color: #ff8c25;
+    }
+    .tv-banner-title {
+        left: 50%;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+    }
+    .tv-banner-title p {
+        width: 100%;
+    }
+    .tv-banner-title h1 {
+        font-size: 45px;
+    }
+    .tv-banner-title h2 {
+        font-size: 35px;
+    }
+    .page-span-3::before {
+        left: -5px;
+    }
+    .page-span-3::after {
+        left: -14px;
+        top: -5px;
+    }
+    .page-span-4::after {
+        bottom: -5px;
+        right: -14px;
+    }
+    .page-span-4::before {
+        right: -5px;
+    }
+    .tv-block-common-title {
+        margin-top: 30px;
+    }
+    .tv-about-img img {
+        margin-top: 30px;
+    }
+    .tv-common-title-left {
+        text-align: center;
+    }
+    .tv-dishes-content {
+        text-align: center;
+    }
+    .page-span-1::after {
+        right: -15px;
+        top: -5px;
+    }
+    .page-span-1::before {
+        right: -5px;
+    }
+    .tv-dishes-img {
+        margin-top: 30px;
+    }
+    .page-span-2.type-2::after {
+        bottom: -5px;
+        left: -13px;
+    }
+    .page-span-2.type-2::before {
+        left: -5px;
+    }
+    .tv-reservation-input {
+        margin-top: 20px;
+    }
+    .tv-block-common-title > p {
+        font-size: 13px;
+    }
+    .tv-block-common-title h3 {
+        font-size: 20px;
+    }
+    .tv-menu-list-img {
+        float: none;
+        position: relative;
+    }
+    .tv-menu-list-img img {
+        max-width: inherit;
+    }
+    .tv-menu-list p {
+        padding-left:0px;
+    }
+    .tv-menu-list-content {
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    .tv-overlay-content > h4 {
+        font-size: 15px;
+    }
+    .tv-counter {
+        margin-top: 20px;
+    }
+    .tv-latestnews-img {
+        margin-top: 20px;
+    }
+    .f-instagram {
+        margin-top: 20px;
+    }
+    .tv-newsletter-input input {
+        width: 100%;
+    }
+    .tv-newsletter-button button {
+        width:100%;
+    }
+    .tv-copyright {
+        text-align: center;
+    }
+    /*Our Food CSS*/
+    .tv-aboutmenu-img {
+        margin-top: 30px;
+    }
+    .tv-inner-service-content {
+        text-align: center;
+        margin-top: 40px;
+    }
+    /*End Our Food CSS*/
+
+    /*Single Blog*/
+    .tv-single-title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .tv-single-controls > a {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .tv-single-commentlist {
+        padding: 0;
+    }
+    .tv-single-comment-children {
+        margin-left: 20px;
+    }
+    .widget {
+        margin-top: 40px;
+    }
+    .tv-comment-form input {
+        width: 100%;
+    }
+    /*End Single Blog*/
+}
+
+
+
+
+
+
