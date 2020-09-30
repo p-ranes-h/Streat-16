@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Streat_16</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="images/favicon.png" rel="icon"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <script src= "js/jquery.min.js" type= "text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/commingsoonclock.js" type="text/javascript"></script>
+    </head>
+
+    <body class="tv-comming-page" style="background-image: url(images/upgrade.jpeg)">
+        <div id="page" class="tv-height-full" style="height: 670px;">
+            <div class="home-content">
+                <div class="home-text">
+                    <div class="tv-banner-title">
+                        <div class="tv-inner-commingsoon-title">
+                            <a href="home.html">Streat_16</a>
+                                                    </div>
+                        <div data-enddate="2018/06/01 12:30:00" class="countdown text-center counter-box-5">
+                            <div class="counter-container">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+                $(window).resize(function () {
+                    $(".tv-height-full").height($(window).height());
+                    $(".tv-height-parent").each(function () {
+                        $(this).height($(this).parent().first().height());
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function () {
+                    $('.countdown').countdown($('.countdown').attr("data-enddate")).on('update.countdown', function (event) {
+                        $(this).html(event.strftime('' + '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Day%!d</span></div>' + '<div class="counter-box"><div class="number">%H</div><span>Hours</span></div>' + '<div class="counter-box"><div class="number">%M</div><span>Minutes</span></div>' + '<div class="counter-box last"><div class="number">%S</div><span>Seconds</span></div></div>'));
+                    });
+                });
+            </script>
+
+    </body>
+</html>
